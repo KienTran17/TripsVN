@@ -1,22 +1,22 @@
 import React, { Component } from 'react';
 import { BrowserRouter, Route } from 'react-router-dom';
-import Header from './components/layout/header/Header';
-import Footer from './components/layout/footer/Footer';
-const Home = () => <h1>Home</h1>;
+import NavLeft from './components/layout/nav-left/NavLeft';
+import NavRight from './components/layout/nav-right/NavRight';
+import Scroll from './components/layout/nav-left/ScrollUp';
+import ModalLogin from './components/layout/ModalLogin';
+import ModalSearch from './components/layout/ModalSearch';
+import Home from './components/content/home/index';
 class App extends Component {
   render() {
     return (
       <BrowserRouter basename="/">
         <div>
-          <header>
-            <Header />
-          </header>
-
+          <NavLeft />
+          <Scroll />
+          <NavRight />
           <Route exact path="/" component={Home} />
-         
-          <footer>
-            <Footer />
-          </footer>
+          <ModalLogin />
+          <ModalSearch />
         </div>
       </BrowserRouter>
     );

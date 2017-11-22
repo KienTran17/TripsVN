@@ -1,0 +1,17 @@
+/*
+    Theme Name:     Monarch Child
+    Theme URI:      https://themeforest.net/item/monarch-innovative-wordpress-community-theme/15059254
+    Description:    Child theme for Monarch
+    Author:         ThemeKitten
+    Author URI:     http://themeforest.net/ThemeKitten
+    Template:       monarch
+    Version:        2.0.0
+*/
+ 
+/*
+	Add Custom CSS after this line
+*/
+
+.child-theme-css {
+    outline: none;
+}

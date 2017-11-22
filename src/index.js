@@ -7,7 +7,7 @@ import registerServiceWorker from './registerServiceWorker';
 import './css/style.css';
 
 ReactDOM.render(
-    <Provider store>
+    <Provider store={store}>
         <App />
     </Provider>, document.getElementById('root'));
 registerServiceWorker();

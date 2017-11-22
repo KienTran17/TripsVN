@@ -1,0 +1,1108 @@
+/**
+ * Do not touch this file! This file created by PHP
+ * Last modifiyed time: Jul 17 2017, 04:13:34
+ */
+
+
+
+/*
+  ========================================
+  Add custom fonts, used in the main stylesheet
+  ========================================
+*/
+
+@import url(https://fonts.googleapis.com/css?family=Merriweather%3A400%2C400italic%2C700%2C700italic%7CPlayfair+Display%3A400%2C400italic%2C600%2C600italic%2C700%2C700italic&subset=latin%2Clatin-ext);
+
+/*
+  ========================================
+  GOOGLE FONT
+  ========================================
+*/
+
+#buddypress .standard-form .radio ul,
+#settings-form td,
+.bbp-forum-description .bbp-author-name,
+.bbp-topic-description .bbp-author-name,
+.bbp-topic-description, .bbp-forum-description,
+.gallery-caption,
+.rtmedia-popup label,
+.tooltip,
+.wp-polls label,
+body {
+	font-family: 'Merriweather', sans-serif;
+}
+
+body .learn-press-tabs .learn-press-nav-tabs .learn-press-nav-tab,
+body .learn-press-message,
+body .article-footer,
+body .excerpt,
+body .select2,
+body .titlelabel,
+body .article-status,
+#bbpress-forums ul li.bbp-forum-info .bbp-forums-list li a,
+#buddypress #message-thread .activity,
+#buddypress #message-thread strong,
+#buddypress div#message-thread strong a,
+#buddypress div.error,
+#buddypress p.success,
+#buddypress p.updated,
+#buddypress p.warning,
+#latest-update,
+#link-modal-title,
+#message,
+#settings-form,
+.aboutwidget,
+.ac-reply-cancel,
+.acomment-meta,
+.activity-greeting,
+.activity-header,
+.bbp-author-name,
+.bbp-breadcrumb,
+.bbp-footer,
+.bbp-form legend,
+.bbp-forum-title,
+.bbp-header,
+.bbp-pagination,
+.bbp-reply-header,
+.bbp-topic-meta,
+.bbp-topic-permalink,
+.bbp-topic-tags,
+.bp-avatar-nav,
+.bp-login-widget-user-link,
+.button,
+.comment-meta,
+.drag-drop-info,
+.forum-titles,
+.item-list-tabs,
+.item-options,
+.item-title,
+.load-more,
+.nav-links,
+.page-numbers,
+.pager,
+.pagination,
+.popover,
+.post-categories,
+.post-category,
+.post-date,
+.post-footer,
+.post-format,
+.post-navigation .nav-links .meta-nav,
+.post-tags,
+.relatedposts .relatedpost .post-info .category,
+.reply a,
+.rtm-album-privacy label,
+.rtm-comment-wrap .rtmedia-comment-author,
+.rtm-comment-wrap .rtmedia-comment-date,
+.rtm-ltb-action-container,
+.rtm-options,
+.rtm-user-meta-details,
+.rtmedia-gallery-item-actions a,
+.rtmedia-success,
+.rtmedia-uploader .drag-drop .drag-drop-info,
+.rtmedia-warning,
+.standard-form .error,
+.sticky-post,
+.subscription-toggle,
+.tagcloud,
+.user-panel,
+.users-who-like,
+.widget.widget_comments ul li a .commauth,
+.widget.widget_display_replies,
+.widget.widget_display_stats,
+.widget.widget_display_views,
+.widget_polls-widget a,
+.woocommerce #reviews #comments ol.commentlist li .comment-text p.meta,
+.bpfb_controls_container .qq-upload-button,
+.woocommerce .price,
+.woocommerce .product_list_widget,
+.woocommerce .tabs,
+.woocommerce .total strong,
+.woocommerce .woocommerce-error,
+.sa-error-container,
+.woocommerce .woocommerce-info,
+.woocommerce .woocommerce-message,
+.woocommerce .woocommerce-ordering,
+.woocommerce .woocommerce-product-rating,
+.woocommerce .woocommerce-result-count,
+.wp-caption-text,
+.wp-polls a,
+body .rtm-media-options .rtm-media-options-list .rtmedia-action-buttons,
+body .rtm-pagination,
+body .rtm-tabs li a,
+body .rtmedia-actions-before-comments .rtmedia-comment-link,
+body .rtmedia-container .rtm-load-more a,
+body .rtmedia-success,
+body .rtmedia-upload-media-link,
+body .rtmedia-warning,
+body a.rtmedia-upload-media-link,
+body.buddypress #buddydrive-main .subsubsub,
+body.buddypress .error,
+body.buddypress div#buddydrive-main #buddydrive-status div.buddydrive-feedback p.info,
+body.buddypress div#buddydrive-main form.buddydrive-item-details #buddydrive-object-selection .buddydrive-item,
+body.buddypress div#buddydrive-main ul#buddydrive-browser li .buddydrive-content .buddydrive-title,
+body.buddypress div#buddydrive-main ul#buddydrive-browser li.buddydrive-item .buddydrive-share-content p.description,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+input,
+input.ed_button,
+label,
+select,
+table,
+.header-panel {
+	font-family: 'Playfair Display', sans-serif;
+}
+
+.site-branding h1.site-title {
+	font-family: 'Elsie', sans-serif;
+}
+
+.site-header h1 a {
+	font-size: 26px;
+	letter-spacing: 4px;
+	font-weight: normal;
+}
+
+@media only screen and (min-width: 768px) {
+	body .site-header h1 a {
+		background-position-x: 0px;
+	}
+}
+
+/* iFlyChat */
+.ifc .ifc-reset a, .ifc .ifc-reset abbr, .ifc .ifc-reset acronym, .ifc .ifc-reset address, .ifc .ifc-reset applet, .ifc .ifc-reset article, .ifc .ifc-reset aside, .ifc .ifc-reset audio, .ifc .ifc-reset b, .ifc .ifc-reset big, .ifc .ifc-reset blockquote, .ifc .ifc-reset button, .ifc .ifc-reset canvas, .ifc .ifc-reset caption, .ifc .ifc-reset center, .ifc .ifc-reset cite, .ifc .ifc-reset code, .ifc .ifc-reset dd, .ifc .ifc-reset del, .ifc .ifc-reset details, .ifc .ifc-reset dfn, .ifc .ifc-reset div, .ifc .ifc-reset div.form, .ifc .ifc-reset dl, .ifc .ifc-reset dt, .ifc .ifc-reset em, .ifc .ifc-reset fieldset, .ifc .ifc-reset figcaption, .ifc .ifc-reset figure, .ifc .ifc-reset footer, .ifc .ifc-reset form, .ifc .ifc-reset h1, .ifc .ifc-reset h2, .ifc .ifc-reset h3, .ifc .ifc-reset h4, .ifc .ifc-reset h5, .ifc .ifc-reset h6, .ifc .ifc-reset header, .ifc .ifc-reset hgroup, .ifc .ifc-reset i, .ifc .ifc-reset iframe, .ifc .ifc-reset img, .ifc .ifc-reset input, .ifc .ifc-reset input[type], .ifc .ifc-reset ins, .ifc .ifc-reset kbd, .ifc .ifc-reset label, .ifc .ifc-reset legend, .ifc .ifc-reset li, .ifc .ifc-reset mark, .ifc .ifc-reset menu, .ifc .ifc-reset nav, .ifc .ifc-reset object, .ifc .ifc-reset ol, .ifc .ifc-reset p, .ifc .ifc-reset pre, .ifc .ifc-reset q, .ifc .ifc-reset s, .ifc .ifc-reset samp, .ifc .ifc-reset section, .ifc .ifc-reset small, .ifc .ifc-reset span, .ifc .ifc-reset strike, .ifc .ifc-reset strong, .ifc .ifc-reset sub, .ifc .ifc-reset summary, .ifc .ifc-reset sup, .ifc .ifc-reset table, .ifc .ifc-reset tbody, .ifc .ifc-reset td, .ifc .ifc-reset textarea, .ifc .ifc-reset tfoot, .ifc .ifc-reset th, .ifc .ifc-reset thead, .ifc .ifc-reset time, .ifc .ifc-reset tr, .ifc .ifc-reset tt, .ifc .ifc-reset u, .ifc .ifc-reset ul, .ifc .ifc-reset var, .ifc .ifc-reset video { font-family: 'Playfair Display', sans-serif!important; }
+
+/* User Panel Icons */
+.nav-buddy li a[href*='/demo/monarch/activity/']::before  { content: '\f2d4'; }
+.nav-buddy li a[href*='/demo/monarch/groups/']::before    { content: '\f26c'; }
+.nav-buddy li a[href*='/demo/monarch/members/']::before   { content: '\f212'; }
+.nav-buddy li a[href*='/demo/monarch/forums/']::before                   { content: '\f11a'; }
+.nav-buddy li a[href*='widgets']::before                                 { content: '\f111'; }
+
+.nav-buddy li a[href*='/demo/monarch/members/demo/activity']::before      { content: '\f2d4'; }
+.nav-buddy li a[href*='/demo/monarch/members/demo/friends']::before       { content: '\f47a'; }
+.nav-buddy li a[href*='/demo/monarch/members/demo/groups']::before        { content: '\f3ea'; }
+.nav-buddy li a[href*='/demo/monarch/members/demo/messages']::before      { content: '\f132'; }
+.nav-buddy li a[href*='/demo/monarch/members/demo/notifications']         { padding: 15px 10px; }
+.nav-buddy li a[href*='/demo/monarch/members/demo/notifications']::before { content: '\f3e2'; }
+.nav-buddy li a[href*='/demo/monarch/members/demo/profile']::before       { content: '\f3a0'; }
+.nav-buddy li a[href*='/demo/monarch/members/demo/settings']::before      { content: '\f13e'; }
+.nav-buddy li a[href*='logout']::before                                  { content: '\f254'; }
+
+/* COLOR SCHEME */
+.comments-area article .comment-author.vcard::before,
+body .rtm-media-single-comments,
+body .mfp-content .rtm-single-meta,
+#buddypress .activity-list .activity-avatar a:before,
+#buddypress #whats-new-form #whats-new-avatar:before,
+body,
+.wrapper {
+	background-color: #f2f2f2;
+}
+
+.toolbar-scrollup .layout,
+.toolbar-scrollup .wp-admin,
+.toolbar-scrollup .scrollup,
+.monarch_menu .nav-primary .current-menu-item > a::before {
+	border-color: #f2f2f2;
+}
+
+#share,
+.activation .wrapper,
+.bbpress #wp-link-backdrop,
+.bbpress #wp-link-wrap,
+.cover .item-list-tabs ul li ul.flexMenu-popup li,
+.error404 .page-header .page-title > span,
+.error404 .wrapper,
+.header-panel .hp-footer,
+.header-panel,
+.modal-backdrop.in,
+.modal-theme .modal-content,
+.modal-theme .modal-dialog,
+.modal-search .search-form123,
+.post-format-bg,
+.post-wrap .hentry .post-thumbnail,
+.post-wrap .post-front-block .post-header,
+.registration .wrapper,
+.toolbar-scrollup .item-wrap,
+.user-panel,
+.body-bg::before,
+.wrapper::after,
+.widget.widget_bp_core_friends_widget .item-list li:hover .item,
+.widget.widget_bp_core_members_widget .item-list li:hover .item,
+.widget.widget_bp_groups_widget .item-list li:hover .item,
+body #drupalchat .chatboxcontent,
+body #drupalchat .chatboxinput,
+body #drupalchat .subpanel .chat_options,
+body #drupalchat .subpanel .drupalchat_search .drupalchat_searchinput,
+body #drupalchat .subpanel .drupalchat_search,
+body #drupalchat .subpanel li,
+body #drupalchat ul li a.active,
+body .mfp-bg,
+body .rtmedia-popup,
+body.buddypress div#buddydrive-main ul#buddydrive-browser li.buddydrive-item .buddydrive-share-dialog,
+.body-bg {
+	background-color: #323232;
+}
+
+.widget-panel.widget.widget_comments ul li a .post::after,
+.post-wrap .post-format-bg {
+	border-bottom-color: #323232;
+}
+
+@media only screen and (max-width: 1530px) {
+	.cover .item-list-tabs {
+		background: #323232;
+	}
+	.cover .item-list-tabs ul li ul.flexMenu-popup {
+		background: #323232;
+	}
+}
+
+body .rtmedia-popup,
+.bbpress #wp-link-wrap,
+.modal-theme .modal-dialog {
+	-webkit-box-shadow: 1px 1px rgba(255, 255, 255, 0.1), 2px 2px rgba( 50, 50, 50, 0.3), 3px 3px rgba(255, 255, 255, 0.1), 4px 4px rgba( 50, 50, 50, 0.3);
+	box-shadow: 1px 1px rgba(255, 255, 255, 0.1), 2px 2px rgba( 50, 50, 50, 0.3), 3px 3px rgba(255, 255, 255, 0.1), 4px 4px rgba( 50, 50, 50, 0.3);
+}
+
+.activation #buddypress input[type="submit"],
+.header-panel .nav-info > li > a:hover,
+.header-panel .nav-social li a:hover,
+.monarch_menu .nav-primary .sub-menu a:focus,
+.monarch_menu .nav-primary .sub-menu a:hover,
+.monarch_menu .nav-primary > li > a:hover,
+.monarch_menu .nav-primary li a:focus .menu-item-description,
+.monarch_menu .nav-primary li a:hover .menu-item-description,
+.navbar-monarch .navbar-nav > li > a:hover,
+.navbar-monarch .navbar-nav > li.dropdown .dropdown-menu a:hover,
+.post-wrap .format-quote .post-title blockquote cite a,
+.post-wrap .format-quote .post-title blockquote cite a:hover,
+.post-wrap .format-quote .post-title blockquote cite,
+.relatedposts h3 a:hover,
+.widget-panel.widget 
+.widget-panel.widget .button,
+.widget.widget_comments ul li a:hover .post,
+.widget.widget_posts ul li h4 a:hover,
+a:focus,
+a:hover,
+body #TB_closeWindowButton:focus .tb-close-icon,
+body #TB_closeWindowButton:hover .tb-close-icon,
+body .bpfb_actions_container.bpfb-theme-new .bpfb_toolbarItem,
+body .bpfb_actions_container.bpfb-theme-new .bpfb_toolbarItem.bpfb_active,
+body .bpfb_actions_container.bpfb-theme-new .bpfb_toolbarItem:active,
+body .bpfb_actions_container.bpfb-theme-new .bpfb_toolbarItem:hover,
+body .bpfb_actions_container.bpfb-theme-new .bpfb_toolbarItem:visited,
+body .plupload_file_action .dashicons,
+body .plupload_file_name .dashicons,
+body .plupload_file_name .dashicons-yes,
+a {
+	color: #b5967f;
+}
+
+body .learn-press-message::before,
+#bp-uploader-warning::before,
+#buddypress #pass-strength-result::before,
+#buddypress div.error::before,
+#buddypress p.success::before,
+#buddypress p.updated::before,
+#buddypress p.warning::before,
+#message::before,
+#sitewide-notice::before,
+.activation #buddypress input[type="submit"]:active,
+.activation #buddypress input[type="submit"]:focus,
+.activation #buddypress input[type="submit"]:hover,
+.bbp-forum-content ul.sticky::after,
+.bbp-topics ul.sticky::after,
+.bbp-topics ul.super-sticky::after,
+.bbp-topics-front ul.super-sticky::after,
+.cover-image-container #item-buttons .generic-button a:hover,
+.icheckbox.checked::before,
+.indicator-hint::before,
+.iradio.checked::before,
+.registration #buddypress input[type="submit"]:active,
+.registration #buddypress input[type="submit"]:focus,
+.registration #buddypress input[type="submit"]:hover,
+.sa-error-container::before,
+.user-panel li.current-menu-item a:focus,
+.user-panel li.current-menu-item a:hover,
+.widget-panel.widget .bp-login-widget-user-logout .logout:active,
+.widget-panel.widget .bp-login-widget-user-logout .logout:focus,
+.widget-panel.widget .bp-login-widget-user-logout .logout:hover,
+.widget-panel.widget .button:active,
+.widget-panel.widget .button:focus,
+.widget-panel.widget .button:hover,
+.woocommerce .woocommerce-error::before,
+.woocommerce .woocommerce-info::before,
+.woocommerce .woocommerce-message::before,
+body #buddypress #rtm-media-options-list .rtm-options .button:focus,
+body #buddypress #rtmedia-single-media-container.rtmedia-single-media .rtm-options .button:hover,
+body .plupload_file_progress,
+body .rtm-media-options .rtmedia-upload-media-link:focus,
+body .rtm-media-options .rtmedia-upload-media-link:hover,
+body .rtmedia-no-media-found::before,
+body .rtmedia-success::before,
+body .rtmedia-warning::before,
+body .select2-container--default .select2-results__option--highlighted[aria-selected],
+body.buddypress .error::before,
+body.buddypress div#buddydrive-main #buddydrive-status div.buddydrive-feedback p.info::before,
+
+#bbpress-forums div.bbp-forum-author .bbp-author-role,
+#bbpress-forums div.bbp-reply-author .bbp-author-role,
+#bbpress-forums div.bbp-topic-author .bbp-author-role,
+#buddypress .item-list-tabs ul li a span,
+.cover-image-container,
+.site-header h1,
+.mini-panel .header-panel button.top,
+.post-wrap .post-format,
+.post-wrap .sticky-post,
+.post-wrap article .post-categories li a,
+.relatedposts .relatedpost .post-info .category,
+.scrollbar-inner > .scroll-element .scroll-bar,
+.tooltip-inner,
+.user-panel .buddy-avatar .notifications,
+.user-panel li.current-menu-item a,
+.widget-area .widget-title span,
+.woocommerce .widget_price_filter .ui-slider .ui-slider-handle,
+.woocommerce .widget_price_filter .ui-slider .ui-slider-range,
+div.bp-avatar-status .bp-bar,
+div.bp-cover-image-status .bp-bar {
+	background-color: #b5967f;
+}
+
+body .learn-press-message,
+#bp-uploader-warning,
+#buddypress div.error,
+#buddypress p.success,
+#buddypress p.updated,
+#buddypress p.warning,
+#message,
+#pass-strength-result,
+#sitewide-notice,
+.activation .content,
+.bbp-forum-content ul.sticky::before,
+.bbp-topics ul.sticky::before,
+.bbp-topics ul.super-sticky::before,
+.bbp-topics-front ul.super-sticky::before,
+.bbpress #wp-link .query-notice .query-notice-default,
+.bbpress #wp-link .query-notice .query-notice-hint,
+.error404 .wrapper,
+.indicator-hint,
+.post-wrap .post-format::after,
+.post-wrap .sticky-post::after,
+.registration .content,
+.sa-error-container,
+.tooltip.bottom .tooltip-arrow,
+.tooltip.left .tooltip-arrow,
+.tooltip.right .tooltip-arrow,
+.tooltip.top .tooltip-arrow,
+.widget-area .widget-title,
+.woocommerce .woocommerce-error,
+.woocommerce .woocommerce-info,
+.woocommerce .woocommerce-message,
+body .rtmedia-no-media-found,
+body .rtmedia-success,
+body.buddypress .error,
+body.buddypress div#buddydrive-main #buddydrive-status div.buddydrive-feedback p.info,
+body .rtmedia-warning {
+	border-color: #b5967f;
+}
+
+.post-wrap .post-format-bg {
+	border-top-color: #b5967f;
+}
+
+body .woocommerce div.product form.cart .button,
+.activation #buddypress input[type="submit"],
+.icheckbox,
+.registration #buddypress input[type="submit"],
+.widget-panel.widget 
+.widget-panel.widget .button,
+body .wp-polls .Buttons,
+body.buddypress div#buddydrive-main ul#buddydrive-browser.bulk-select li.buddydrive-item.bulk-selected .buddydrive-content,
+body.buddypress div#buddydrive-main ul#buddydrive-browser.bulk-select li.buddydrive-item.bulk-selected .buddydrive-icon,
+#buddypress input[type=submit],
+input[type="submit"] {
+	border-color: rgba( 181, 150, 127, 0.3);
+}
+
+body #drupalchat .subpanel li:hover,
+.icheckbox::before,
+.infinite-loader .spinner,
+.woocommerce .widget_price_filter .price_slider_wrapper .ui-widget-content,
+.infinite-loader .spinner::before,
+.infinite-loader .spinner::after {
+	background: rgba( 181, 150, 127, 0.3);
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1360px), (max-width: 768px) {
+	.user-panel .nav-buddy li.current-menu-item a,
+	.user-panel .nav-buddy li.current-menu-item a::before {
+		background-color: #b5967f;
+	}
+
+	.user-panel .nav-buddy li a:focus,
+	.user-panel .nav-buddy li a:hover {
+		background: #b5967f;
+	}
+}
+
+::-webkit-scrollbar-thumb,
+::-webkit-scrollbar-thumb:window-inactive,
+::selection {
+	background-color: #b5967f;
+}
+
+/*
+  ========================================
+  Box Corner
+  ========================================
+*/
+
+
+.item-list .elem .padding::after,
+.hentry.course::after,
+.author-info::after,
+.page-header .page-header-content::after,
+.panel::after,
+.post-wrap .hentry.format-audio::after,
+.post-wrap .hentry.format-gallery::after,
+.post-wrap .hentry.format-standard::after,
+.post-wrap .hentry.format-video::after,
+.post-wrap .hentry.page.type-page::after,
+.post-wrap .hentry.type-attachment::after,
+.relatedposts .relatedpost::after,
+body #item-body .rtm-lightbox-container .rtm-single-media::after,
+.widget-area .widget::after
+ {
+	position: absolute;
+	content: "";
+	bottom: -1px;
+	right: 0px;
+	width: 25px;
+	height: 25px;
+	z-index: 1;
+	background: -webkit-linear-gradient(135deg, #f2f2f2 45%, #dddddd 50%, #dddddd 56%, #dddddd 80%); 
+	background: linear-gradient(315deg, #f2f2f2 45%, #dddddd 50%, #dddddd 56%, #dddddd 80%);
+}
+
+
+.item-list .elem .padding::before,
+.hentry.course::before,
+.author-info::before,
+.panel::before,
+.post-wrap .hentry.format-audio::before,
+.post-wrap .hentry.format-gallery::before,
+.post-wrap .hentry.format-standard::before,
+.post-wrap .hentry.format-video::before,
+.post-wrap .hentry.page.type-page::before,
+.post-wrap .hentry.type-attachment::before,
+.relatedposts .relatedpost::before,
+body #item-body .rtm-lightbox-container .rtm-single-media::before,
+.page-header .page-header-content::before,
+.widget-area .widget::before
+ {
+	position: absolute;
+	content: "";
+	bottom: 0;
+	right: 25px;
+	background: -webkit-linear-gradient(135deg, rgba(0, 0, 0, 0.04) 45%, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0) 56%, rgba(255, 255, 255, 0) 80%);
+	background: linear-gradient(315deg, rgba(0, 0, 0, 0.02) 45%, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0) 56%, rgba(255, 255, 255, 0) 80%); width: 20px; height: 20px; z-index: 2;
+}
+
+/*
+  ========================================
+  Box Style Monarch
+  ========================================
+*/
+
+
+body .sa-upload-image-container,
+body .buttons-container,
+#buddypress .activity-list .activity-avatar a,
+#buddypress #whats-new-form #whats-new-avatar a,
+#add_payment_method #payment,
+#bbpress-forums #bbp-search-form,
+#bbpress-forums div.hentry,
+#bbpress-forums fieldset.bbp-form,
+#bbpress-forums li.bbp-body ul.forum,
+#bbpress-forums li.bbp-body ul.topic,
+#bbpress-forums li.bbp-footer,
+#bbpress-forums li.bbp-header,
+#buddypress #friend-list li,
+#buddypress #item-body div.profile,
+#buddypress #member-list li,
+#buddypress #message-thread .message-box,
+#buddypress .activity-comments .acomment-content,
+#buddypress .activity-comments .acomment-meta img.avatar,
+#buddypress .activity-list .activity-header img.avatar,
+#buddypress .activity-list .activity-inner,
+#buddypress .item-list-tabs,
+#buddypress .masonry li .padding,
+#buddypress .notifications,
+#buddypress .notifications,
+#buddypress .standard-form,
+#buddypress .standard-form,
+#buddypress div.dir-search,
+#buddypress div.item-list-tabs#subnav ul li.groups-members-search input[type="submit"],
+.author-info,
+.comments-area .no-comments,
+.comments-area .pingback .comment-body,
+.comments-area article .avatar,
+.comments-area article .comment-content,
+.cover,
+.notifications-options-nav,
+.page-header .page-header-content,
+.page-numbers,
+.pagination-links a,
+.pagination-links span,
+.panel,
+.post-navigation .nav-links .nav-next,
+.post-navigation .nav-links .nav-previous,
+.post-wrap .hentry,
+.post-wrap .post-date,
+.relatedposts .relatedpost,
+.search-form input[type="submit"],
+.timeline-badge,
+.widget-area .widget,
+.widget_display_search input[type="submit"],
+.woocommerce .term-description,
+.woocommerce .track_order,
+.woocommerce .woocommerce-billing-fields,
+.woocommerce .woocommerce-shipping-fields,
+.woocommerce div.product .woocommerce-tabs .panel,
+.woocommerce table.shop_table,
+.woocommerce ul.products li.product,
+.woocommerce-checkout #payment,
+.woocommerce-page ul.products li.product,
+.woocommerce-product-search input[type="submit"],
+body #buddypress #item-body .rtmedia-container ul.rtmedia-list li .rtmedia-list-item-a,
+body #buddypress #item-body .rtmedia-container ul.rtmedia-list.rtmedia-album-list li a,
+body #item-body .rtmedia-container .rtm-lightbox-container .rtm-single-media,
+body .rtm-comment-list .rtmedia-comment-content,
+body .rtm-comment-list .rtmedia-comment-user-pic a,
+body .rtm-pagination .rtm-paginate a,
+body .rtm-pagination .rtm-paginate a.rtmedia-page-link,
+body .rtm-pagination .rtm-paginate span,
+body .rtmedia-container #rtmedia-uploader-form .rtm-plupload-list li,
+body .rtmedia-container #rtmedia_uploader_filelist li,
+body .rtmedia-container .rtm-comment-list.rtm-comment-list li.rtmedia-no-comments,
+body .rtmedia-container .rtm-media-gallery-uploader,
+body .rtmedia-container .rtm-tabs-content .content,
+body .rtmedia-container .rtmedia-like-info, 
+body .rtmedia-container .rtmedia-media-description,
+body.buddypress div#buddydrive-main #buddydrive-actions-form,
+body.buddypress div#buddydrive-main #buddydrive-status div.buddydrive-feedback,
+body.buddypress div#buddydrive-main #buddydrive-uploader,
+body.buddypress div#buddydrive-main .buddydrive-toolbar,
+body.buddypress div#buddydrive-main article#buddydrive-item-content,
+body.buddypress div#buddydrive-main header#buddydrive-item-header,
+body.buddypress div#buddydrive-main ul#buddydrive-browser li .buddydrive-content,
+body.buddypress div#buddydrive-main ul#buddydrive-browser li .buddydrive-icon,
+div.bbp-breadcrumb,
+div.bbp-template-notice.info,
+div.bbp-topic-tags,
+.messages-options-nav
+ {
+	border-bottom: 1px solid #dddddd;
+}
+
+/*
+  ========================================
+  Select Monarch
+  ========================================
+*/
+
+.icheckbox.checked::before,
+.iradio.checked::before                                             { opacity: 0.5; }
+
+body .select2-container--default .select2-selection--single .select2-selection__rendered,
+body .select2-container--default .select2-selection--multiple .select2-selection__rendered { -webkit-box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.02); box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.02); }
+
+/*
+  ========================================
+  Widgets Monarch
+  ========================================
+*/
+
+.widget-area .widget-title                                          { border-bottom-width: 2px; border-bottom-style: solid; margin: 0 0 15px 0; }
+.widget-area .widget-title span                                     { position: relative; display: inline-block; height: 22px; color: #fff; text-transform: uppercase; font-size: 12px; line-height: 24px; font-weight: normal; padding: 0 23px 0 10px; overflow: hidden; float: left; }
+.widget-area .widget-title span::before                             { content: ""; position: absolute; top: -9px; width: 26px; height: 26px; background: #fff; -moz-transform: rotate(60deg); -ms-transform: rotate(60deg); -webkit-transform: rotate(60deg); -o-transform: rotate(60deg); transform: rotate(60deg); right: -17px; }
+
+.post-wrap .post-footer                                             { border-top: 1px dashed #e4e4e4; padding: 25px 0 40px; margin: 0 50px; }
+.post-wrap .post-footer ul                                          { list-style-type: none; padding: 0; margin: 0 -15px; }
+.post-wrap .post-footer li                                          { display: inline-block; font-size: 12px; color: #b3b3b3; font-weight: bold; letter-spacing: 1px; padding: 0 20px; text-transform: capitalize; position: relative; height: 24px; }
+.post-wrap .post-footer li i                                        { margin-right: 5px; font-size: 17px; position: relative; top: 2px; }
+.post-wrap .post-footer li a                                        { color: #b3b3b3; }
+
+/*
+  ========================================
+  Letter Spacing
+  ========================================
+*/
+
+/* Page Header */
+body.woocommerce .page-title,
+body.buddypress div#buddydrive-main ul.subsubsub li.current,
+.imgedit-group-top h2,
+.rtmedia-title,
+#bbpress-forums > h3,
+.rtm-gallery-title,
+.rtmedia-media-edit > h2,
+.page-header .page-title,
+
+/* Comments */
+body .rtm-comment-list .rtm-comment-wrap .rtmedia-comment-author a,
+.comments-area article .comment-author a,
+
+.comments-area .comment-respond .comment-reply-title small a,
+
+/* Widgets */
+.widget .tagcloud a,
+.comments-area article .reply a,
+.widget.widget_rss .rss-date,
+.widget.widget_recent_entries .post-date,
+
+.nav-buddy li a,
+.user-menu-create li a,
+.post-wrap .post-format,
+.header-panel .hp-footer                                             { letter-spacing: 1px; }
+
+.bbpress #link-modal-title,
+.rtmedia-popup .rtm-modal-title,
+.modal-theme .modal-header,
+
+.monarch_menu .nav-primary .sub-menu a,
+.monarch_menu .nav-primary li a                                      { letter-spacing: 2px; }
+
+.widget.widget_posts ul li h4                                        { letter-spacing: 0.5px; }
+.comments-title                                                      { letter-spacing: 3px; }
+
+.post-wrap .post-tags a,
+.comments-area .comment-respond .comment-reply-title                 { letter-spacing: 1.5px; }
+
+.post-navigation .nav-links .meta-nav                                { letter-spacing: 0.04em; }
+
+/* bbPress */
+#bbpress-forums li.bbp-header,
+#bbpress-forums li.bbp-footer,
+#bbpress-forums fieldset.bbp-form legend                             { letter-spacing: 0.5px; }
+
+#bbpress-forums div.bbp-reply-author a.bbp-author-name,
+#bbpress-forums div.bbp-topic-author a.bbp-author-name,
+#bbpress-forums h2.entry-title,
+#bbpress-forums ul li.bbp-forum-info a,
+div.bbp-breadcrumb,
+div.bbp-topic-tags                                                   { letter-spacing: 1px; }
+
+/* BuddyPress */
+#buddypress #friend-list li .item-title a,
+#buddypress #friend-list li h4 a,
+#buddypress #member-list li h5 a,
+#buddypress #whats-new-form p.activity-greeting,
+#buddypress .activity-comments .ac-reply-content a,
+#buddypress .masonry li .item-title a,
+#buddypress .standard-form h5 > a,
+.bp-avatar-nav ul,
+.widget.widget_bp_core_friends_widget .item-list li .item-title a,
+.widget.widget_bp_core_members_widget .item-list li .item-title a,
+.widget.widget_bp_groups_widget .item-list li .item-title a          { letter-spacing: 1px; }
+
+#buddypress .activity-comments .acomment-meta a,
+#buddypress .activity-list .activity-header p a,
+#buddypress .activity-list .bbpress .activity-header p .time-since,
+#buddypress .standard-form label,
+#buddypress .standard-form span.label,
+#buddypress .standard-form#settings-form,
+.drag-drop .drag-drop-inside p.drag-drop-info                        { letter-spacing: 0.5px; }
+
+/* rtMedia */
+body.buddypress div#buddydrive-main #buddydrive-uploader .drag-drop-inside p.drag-drop-info,
+body .rtmedia-container .rtmedia-uploader .drag-drop .drag-drop-info,
+body .rtmedia-container .rtm-user-meta-details .username a,
+body .rtmedia-container .drag-drop-inside p.drag-drop-info,
+body .rtmedia-container .rtm-album-privacy label                     { letter-spacing: 0.5px; }
+
+/*
+  ========================================
+  Buttons Monarch
+  ========================================
+*/
+
+/* Button Default */
+body .woocommerce div.product form.cart .button,
+.page .post-edit-link,
+.page #vc_load-inline-editor,
+body .delete-logo,
+body input.bpfb_primary_button,
+body .bpfb_controls_container .qq-upload-button,
+#rtmedia_create_new_album,
+#subscription-toggle a,
+.activity-comments li.show-all a,
+.activity-read-more a,
+.bbpress #wp-link-cancel .button,
+.bbpress #wp-link-submit,
+.bp-title-button,
+.btn,
+.btn.btn-default,
+.btn.btn-primary,
+.button-nav li a,
+.wp-social-login-widget a,
+body #whats-new-submit #aw-whats-new-submit,
+body.buddypress div#buddydrive-main .button-primary,
+body.buddypress div#buddydrive-main #buddydrive-uploader #bp-upload-ui:not(.drag-drop) #bp-browse-button,
+body .rtmedia-add-media-button,
+body button.rtmedia-comment-media-upload,
+body.buddypress div#buddydrive-main .buddydrive-actions a,
+body.buddypress div#buddydrive-main #buddydrive-load-more,
+body .rtmedia-container .rtm-load-more .rtmedia-page-link.button,
+body .rtmedia-gallery-item-actions a,
+body .rtmedia-single-container button.rtmedia-like,
+#buddypress input[type=submit],
+button[type="submit"],
+input[type="button"],
+input[type="submit"]                                               { font-size: 11px; color: #505050; padding: 12px 15px; line-height: 1; position: relative; height: 40px; letter-spacing: 1px; font-weight: bold; border: 3px double; -webkit-box-shadow: none; box-shadow: none; text-transform: uppercase; border-radius: 0; -webkit-transition: all 0.3s; -moz-transition: all 0.3s; transition: all 0.3s; display: inline-block; z-index: 1; background: #fff; text-shadow: none; border-color: rgba( 181, 150, 127, 0.3); font-family: 'Playfair Display', sans-serif; }
+
+/* Button Default Focus & Hover & Active */
+.page .post-edit-link:active,
+.page #vc_load-inline-editor:active,
+body .delete-logo:active,
+body input.bpfb_primary_button:active,
+body .bpfb_controls_container .qq-upload-button:active,
+#rtmedia_create_new_album:active,
+#subscription-toggle a:active,
+.activity-comments li.show-all a:active,
+.activity-read-more a:active,
+.bbpress #wp-link-cancel .button:active,
+.bbpress #wp-link-submit:active,
+.bp-title-button:active,
+.btn.btn-default:active,
+.btn.btn-primary:active,
+.btn:active,
+.button-nav li a:active,
+.wp-social-login-widget a:active,
+body #whats-new-submit #aw-whats-new-submit:active,
+body.buddypress div#buddydrive-main .button-primary:active,
+body.buddypress div#buddydrive-main #buddydrive-load-more:active,
+body.buddypress div#buddydrive-main #buddydrive-uploader #bp-upload-ui:not(.drag-drop) #bp-browse-button:active,
+body .rtmedia-add-media-button:active,
+body button.rtmedia-comment-media-upload:active,
+body .rtmedia-container .rtm-load-more .rtmedia-page-link.button:active,
+body .rtmedia-gallery-item-actions a:active,
+body.buddypress div#buddydrive-main .buddydrive-actions a:active,
+body .rtmedia-single-container button.rtmedia-like:active,
+body .wp-polls .Buttons:active, 
+#buddypress input[type=submit]:active,
+button[type="submit"]:active,
+input[type="button"]:active,
+input[type="submit"]:active,
+body .woocommerce div.product form.cart .button:active,
+
+body .woocommerce div.product form.cart .button:focus,
+.page .post-edit-link:focus,
+.page #vc_load-inline-editor:focus,
+body .delete-logo:focus,
+body input.bpfb_primary_button:focus,
+body .bpfb_controls_container .qq-upload-button:focus,
+#rtmedia_create_new_album:focus,
+#subscription-toggle a:focus,
+.activity-comments li.show-all a:focus,
+.activity-read-more a:focus,
+.bbpress #wp-link-cancel .button:focus,
+.bbpress #wp-link-submit:focus,
+.bp-title-button:focus,
+.btn.btn-default:focus,
+.btn.btn-primary:focus,
+.btn:focus,
+.button-nav li a:focus,
+.wp-social-login-widget a:focus,
+body #whats-new-submit #aw-whats-new-submit:focus,
+body.buddypress div#buddydrive-main .button-primary:focus,
+body.buddypress div#buddydrive-main #buddydrive-load-more:focus,
+body.buddypress div#buddydrive-main #buddydrive-uploader #bp-upload-ui:not(.drag-drop) #bp-browse-button:focus,
+body .rtmedia-add-media-button:focus,
+body button.rtmedia-comment-media-upload:focus,
+body .rtmedia-container .rtm-load-more .rtmedia-page-link.button:focus,
+body .rtmedia-gallery-item-actions a:focus,
+body.buddypress div#buddydrive-main .buddydrive-actions a:focus,
+body .rtmedia-single-container button.rtmedia-like:focus,
+body .wp-polls .Buttons:focus, 
+button[type="submit"]:focus,
+input[type="button"]:focus,
+#buddypress input[type=submit]:focus,
+input[type="submit"]:focus,
+
+body .woocommerce div.product form.cart .button:hover,
+.page .post-edit-link:hover,
+.page #vc_load-inline-editor:hover,
+body .delete-logo:hover,
+body input.bpfb_primary_button:hover,
+body .bpfb_controls_container .qq-upload-button:hover,
+#rtmedia_create_new_album:hover,
+#subscription-toggle a:hover,
+.activity-comments li.show-all a:hover,
+.activity-read-more a:hover,
+.bbpress #wp-link-cancel .button:hover,
+.bbpress #wp-link-submit:hover,
+.bp-title-button:hover,
+.btn.btn-default:hover,
+.btn.btn-primary:hover,
+.btn:hover,
+.button-nav li a:hover,
+.wp-social-login-widget a:hover,
+body #whats-new-submit #aw-whats-new-submit:hover,
+body.buddypress div#buddydrive-main .button-primary:hover,
+body.buddypress div#buddydrive-main #buddydrive-load-more:hover,
+body.buddypress div#buddydrive-main #buddydrive-uploader #bp-upload-ui:not(.drag-drop) #bp-browse-button:hover,
+body .rtmedia-add-media-button:hover,
+body button.rtmedia-comment-media-upload:hover,
+body .rtmedia-container .rtm-load-more .rtmedia-page-link.button:hover,
+body .rtmedia-gallery-item-actions a:hover,
+body.buddypress div#buddydrive-main .buddydrive-actions a:hover,
+body .rtmedia-single-container button.rtmedia-like:hover,
+body .wp-polls .Buttons:hover,
+button[type="submit"]:hover,
+input[type="button"]:hover,
+#buddypress input[type=submit]:hover,
+input[type="submit"]:hover                                           { color: #fff; border-width: 3px; border-style: double; border-color: #fff; text-decoration: none; background-color: #b5967f; }
+
+/* Button Secondary */
+.woocommerce #respond input#submit,
+.woocommerce a.button,
+.woocommerce button.button,
+.woocommerce input.button,
+.acomment-options a,
+.bp-login-widget-user-logout .logout,
+.generic-button a,
+.load-more a,
+.load-newest a,
+.notifications a.delete,
+.notifications a.mark-read,
+.notifications a.mark-unread,
+.thread-options a.delete,
+.thread-options a.read,
+.thread-options a.unread,
+body #buddypress #rtm-media-options-list .rtm-options .button,
+body #buddypress .rtmedia-actions-before-comments .rtmedia-like,
+body.buddypress div#buddydrive-main ul#buddydrive-manage-actions li a,
+body #rtm-media-options-list .rtm-options.rtm-options .rtmedia-delete-album,
+body .imgedit-group .dashicons.imgedit-help-toggle,
+body .rtm-media-options .rtm-media-options-list .rtmedia-action-buttons,
+body .rtm-options.rtm-options a,
+body .rtm-tabs a,
+body .rtmedia-actions-before-comments .rtmedia-comment-link,
+body .rtmedia-container .rtm-load-more a#rtMedia-galary-next,
+body .rtmedia-edit-media-tabs .rtm-tabs a,
+body .rtmedia-upload-media-link,
+body a.rtmedia-upload-media-link,
+.button                                                             { color: #aaa; vertical-align: middle; position: relative; z-index: 25; display: inline-block; line-height: 1.3; border: 3px double rgba(0, 0, 0, 0.1); background-color: #fff; letter-spacing: 0.5px; -webkit-box-shadow: none; box-shadow: none; padding: 8px 14px; font-size: 11px; font-family: 'Playfair Display', sans-serif; height: auto; font-weight: bold; min-height: 36px; }
+
+/* Button Secondary Focus & Hover*/
+.woocommerce #respond input#submit:focus,
+.woocommerce a.button:focus,
+.woocommerce button.button:focus,
+.woocommerce input.button:focus,
+.acomment-options a:focus,
+.bp-login-widget-user-logout .logout:focus,
+.button:focus,
+.generic-button a:focus,
+.load-more a:focus,
+.load-newest a:focus,
+.notifications a.delete:focus,
+.notifications a.mark-read:focus,
+.notifications a.mark-unread:focus,
+.thread-options a.delete:focus,
+.thread-options a.read:focus,
+.thread-options a.unread:focus,
+body #buddypress #rtm-media-options-list .rtm-options .button:focus,
+body #buddypress .rtmedia-actions-before-comments .rtmedia-like:focus,
+body.buddypress div#buddydrive-main ul#buddydrive-manage-actions li a:focus,
+body #rtm-media-options-list .rtm-options.rtm-options .rtmedia-delete-album:focus,
+body .imgedit-group .dashicons.imgedit-help-toggle:focus,
+body .rtm-media-options .rtm-media-options-list .rtmedia-action-buttons:focus,
+body .rtm-options.rtm-options a:focus,
+body .rtm-tabs a:focus,
+body .rtmedia-actions-before-comments .rtmedia-comment-link:focus,
+body .rtmedia-container .rtm-load-more a#rtMedia-galary-next:focus,
+body .rtmedia-edit-media-tabs .rtm-tabs a:focus,
+body .rtmedia-upload-media-link:focus,
+body a.rtmedia-upload-media-link:focus,
+
+.woocommerce #respond input#submit:hover,
+.woocommerce a.button:hover,
+.woocommerce button.button:hover,
+.woocommerce input.button:hover,
+.acomment-options a:hover,
+.bp-login-widget-user-logout .logout:hover,
+.generic-button a:hover,
+.load-more a:hover,
+.load-newest a:hover,
+.notifications a.delete:hover,
+.notifications a.mark-read:hover,
+.notifications a.mark-unread:hover,
+.thread-options a.delete:hover,
+.thread-options a.read:hover,
+.thread-options a.unread:hover,
+body #buddypress #rtm-media-options-list .rtm-options .button:hover,
+body #buddypress .rtmedia-actions-before-comments .rtmedia-like:hover,
+body.buddypress div#buddydrive-main ul#buddydrive-manage-actions li a:hover,
+body #rtm-media-options-list .rtm-options.rtm-options .rtmedia-delete-album:hover,
+body .imgedit-group .dashicons.imgedit-help-toggle:hover,
+body .rtm-media-options .rtm-media-options-list .rtmedia-action-buttons:hover,
+body .rtm-options.rtm-options a:hover,
+body .rtm-tabs a:hover,
+body .rtmedia-actions-before-comments .rtmedia-comment-link:hover,
+body .rtmedia-container .rtm-load-more a#rtMedia-galary-next:hover,
+body .rtmedia-edit-media-tabs .rtm-tabs a:hover,
+body .rtmedia-upload-media-link:hover,
+body a.rtmedia-upload-media-link:hover,
+.button:hover                                                       { text-decoration: none; -webkit-box-shadow: 0 0 0 3px rgba(216, 216, 216, 0); box-shadow: 0 0 0 3px rgba(216, 216, 216, 0); color: #fff; border-color: #fff; background-color: #b5967f; }
+
+/* Button Counter */
+#buddypress a.bp-primary-action span,
+#buddypress #reply-title small a span                               { background: #D8D8D8; padding: 0px 5px 3px; color: #fff; -webkit-transition: all 0.3s; -moz-transition: all 0.3s; transition: all 0.3s; text-align: center; }
+
+/* Button Hover Counter */
+#buddypress a.bp-primary-action:focus span,
+#buddypress #reply-title small a:focus span,
+#buddypress a.bp-primary-action:hover span,
+#buddypress #reply-title small a:hover span                         { background: rgb(255, 255, 255); color: #757575; }
+
+/* Button Load More */
+body.buddypress div#buddydrive-main #buddydrive-load-more,
+body .rtmedia-container .rtm-load-more a#rtMedia-galary-next,
+.load-more a,
+.load-newest a                                                      { display: block; width: 100%; height: 55px; padding: 18px; font-family: 'Playfair Display', sans-serif; }
+
+input[type="button"],
+input[type="submit"]                                                { width: auto; }
+
+/* Button Disabled */
+input[type="submit"].pending,
+input[type="button"].pending,
+input[type="reset"].pending,
+input[type="submit"].disabled,
+input[type="button"].disabled,
+input[type="reset"].disabled,
+input[type="submit"][disabled=disabled],
+input[type="submit"][disabled],
+button.pending,
+button.disabled,
+div.pending a,
+a.disabled                                                          { border-color: #ddd; color: #bbb; cursor: default; -webkit-box-shadow: none; box-shadow: none; }
+
+/* Button Disabled Hover */
+input[type="submit"].pending:hover,
+input[type="button"].pending:hover,
+input[type="reset"].pending:hover,
+input[type="submit"].disabled:hover,
+input[type="button"].disabled:hover,
+input[type="reset"].disabled:hover,
+input[type="submit"][disabled=disabled]:hover,
+input[type="submit"][disabled]:hover,
+button.pending:hover,
+button.disabled:hover,
+div.pending a:hover,
+a.disabled:hover                                                    { border-color: #eee; color: #fff; }
+
+/* Button Animation */
+body .rtmedia-single-container button.rtmedia-like[disabled=disabled],
+body .rtmedia-actions-before-comments .rtmedia-comment-link[disabled=disabled],
+body #buddypress .rtmedia-actions-before-comments .rtmedia-like[disabled=disabled],
+.button.loading,
+.load-more.loading a                                                { background-repeat: repeat; background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAMAQMAAABsu86kAAAABlBMVEX+/v4AAAAbQk4OAAAAAnRSTlNAAIbqgj0AAAAcSURBVAjXY+gzYJApYLB4wFB4gOFxA8NxAUwRAMfUC5sqMpN5AAAAAElFTkSuQmCC); -webkit-animation: loading 2s infinite; -o-animation: loading 2s infinite; animation: loading 2s infinite; }
+
+*[disabled],
+form *[disabled="disabled"]                                         { cursor: default; opacity: 0.4; }
+
+.toolbar-scrollup .item .ion-navicon-round::before                  { content: '\f107'; }
+
+/*
+  ========================================
+  Images Outlines Monarch
+  ========================================
+*/
+
+body .userprofile.rtm-user-avatar::after,
+#bbpress-forums .bbp-topic-title p.bbp-topic-meta .bbp-author-avatar::after,
+.bbp-logged-in .user-submit::after,
+.widget.widget_flickr ul li a::after,
+.widget.widget_dribbble ul li a::after,
+.widget.widget_comments ul li a .image::after,
+.widget.widget_bp_core_friends_widget .item-list li .item-avatar a::after,
+.widget.widget_about .aboutwidget .image::after,
+.widget.buddypress .bp-login-widget-user-avatar a::after,
+.widget.widget_bp_core_whos_online_widget .item-avatar a::after,
+.widget.widget_bp_core_recently_active_widget .item-avatar a::after,
+.widget.widget_bp_core_members_widget .item-list li .item-avatar a::after,
+.widget.widget_bp_groups_widget .item-list li .item-avatar a::after { content: ""; position: absolute; top: 1px; left: 1px; right: 1px; bottom: 1px; border: 1px solid rgba(255, 255, 255, 0.25); -webkit-box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1), 0 0 0 1px rgba(0, 0, 0, 0.1); box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1), 0 0 0 1px rgba(0, 0, 0, 0.1); z-index: 1; }
+
+.article-image::after,
+.relatedposts .image a::after,
+#bbpress-forums p.bbp-topic-meta span.bbp-topic-freshness-author .bbp-author-avatar::after,
+#bbpress-forums div.bbp-reply-author .bbp-author-avatar::after,
+.widget.widget_posts .image a::after,
+.author-info .author-avatar::after                                  { content: ""; position: absolute; top: 3px; left: 3px; right: 3px; bottom: 3px; border: 1px solid rgba(255, 255, 255, 0.25); -webkit-box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.1), 0 0 0 1px rgba(0, 0, 0, 0.1); box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.1), 0 0 0 1px rgba(0, 0, 0, 0.1); z-index: 1; }
+
+.elem .cover-loop a::after,
+#buddypress .masonry li .item-avatar a::after,
+.post-wrap article.has-post-thumbnail.format-standard .post-thumbnail::after,
+.post-wrap article.has-post-thumbnail.format-gallery .post-thumbnail::after,
+.post-wrap.with-avatar .avatar-link::after,
+.post-wrap article.has-post-thumbnail.type-page .post-thumbnail::after,
+.post-wrap .post-front-block .post-header::after                    { content: ""; position: absolute; top: 5px; left: 5px; right: 5px; bottom: 5px; border: 1px solid rgba(255, 255, 255, 0.25); -webkit-box-shadow: 0 0 0 5px rgba(0, 0, 0, 0.1), 0 0 0 1px rgba(0, 0, 0, 0.1); box-shadow: 0 0 0 5px rgba(0, 0, 0, 0.1), 0 0 0 1px rgba(0, 0, 0, 0.1); z-index: 1; }
+
+@-webkit-keyframes infload {
+	0%, 80%, 100% {
+		-webkit-box-shadow: 0 0 rgba( 181, 150, 127, 0.3);
+		height: 4em;
+	} 40% {
+		-webkit-box-shadow: 0 -2em rgba( 181, 150, 127, 0.3);
+		height: 5em;
+	}
+}
+
+@-moz-keyframes infload {
+	0%, 80%, 100% {
+		-moz-box-shadow: 0 0 rgba( 181, 150, 127, 0.3);
+		height: 4em;
+	} 40% {
+		-moz-box-shadow: 0 -2em rgba( 181, 150, 127, 0.3);
+		height: 5em;
+	}
+}
+
+@-ms-keyframes infload {
+	0%, 80%, 100% {
+		box-shadow: 0 0 rgba( 181, 150, 127, 0.3);
+		height: 4em;
+	} 40% {
+		box-shadow: 0 -2em rgba( 181, 150, 127, 0.3);
+		height: 5em;
+	}
+}
+
+@-o-keyframes infload {
+	0%, 80%, 100% {
+		box-shadow: 0 0 rgba( 181, 150, 127, 0.3);
+		height: 4em;
+	} 40% {
+		box-shadow: 0 -2em rgba( 181, 150, 127, 0.3);
+		height: 5em;
+	}
+}
+
+@keyframes infload {
+	0%, 80%, 100% {
+		box-shadow: 0 0 rgba( 181, 150, 127, 0.3);
+		height: 4em;
+	} 40% {
+		box-shadow: 0 -2em rgba( 181, 150, 127, 0.3);
+		height: 5em;
+	}
+}
+
