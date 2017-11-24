@@ -6,6 +6,8 @@ import Scroll from './components/layout/nav-left/ScrollUp';
 import ModalLogin from './components/layout/ModalLogin';
 import ModalSearch from './components/layout/ModalSearch';
 import Home from './components/content/home/index';
+import { connect } from 'react-redux'
+
 class App extends Component {
   render() {
     return (
@@ -23,4 +25,4 @@ class App extends Component {
   }
 }
 
-export default App;
+export default connect()(App)

@@ -453,9 +453,6 @@
 		  $(this).first().addClass("iframe");
 		});
 
-		// Modal Login Placeholder
-		jQuery('#loginform #user_pass').attr( 'placeholder', localizeJsText.password );
-		jQuery('#loginform #user_login').attr( 'placeholder', localizeJsText.username );
 
 		/* jQuery Masonry for BuddyPress Filter: BuddyPress Filter the current content list (groups/members/blogs/topics) */
 		bp_filter_request = function bp_filter_request( object, filter, scope, target, search_terms, page, extras, caller, template ) {

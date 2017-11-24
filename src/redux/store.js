@@ -1,9 +1,10 @@
 const redux = require('redux');
+const userInfo = require('./reducer/user')
 
-const store = redux.createStore(
-    redux.combineReducers({
-        
-    })
-)
+const reducer = redux.combineReducers({
+    userInfo
+})
+const store = redux.createStore(reducer)
+
 
 export default store;

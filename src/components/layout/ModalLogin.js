@@ -1,6 +1,22 @@
 import React, { Component } from 'react';
+import Login from '../../api/users/login'
+import { connect } from 'react-redux'
 
-export default class ModalLogin extends Component {
+class ModalLogin extends Component {
+    constructor(props) {
+        super(props);
+    }
+    login(e) {
+        e.preventDefault()
+        const { dispatch } = this.props
+        const { username, password, rememberme } = this.refs;
+        Login(username.value, password.value)
+            .then(userInfo =>  {
+                // if(rememberme.value) 
+                // save session
+                dispatch({ type: 'USER_LOGIN', item: userInfo })
+            })
+    }
     render() {
         return (
             <div className="modal fade modal-theme" id="modal-login" tabIndex={-1} role="dialog" aria-labelledby="modal-theme-label" aria-hidden="true">
@@ -41,22 +57,21 @@ export default class ModalLogin extends Component {
                                 </div>
                                 {/* wsl_render_auth_widget */}
                             </div>
-                            <form name="loginform" id="loginform" action="/demo/monarch/wp-login.php" method="post">
+                            <form name="loginform" id="loginform" onSubmit={this.login.bind(this)}>
                                 <p className="login-username">
                                     <label htmlFor="user_login">Username or Email Address</label>
-                                    <input type="text" name="log" id="user_login" className="input" defaultValue size={20} />
+                                    <input type="text" name="log" ref="username" id="username" className="input" placeholder="Username or Email" size={20} />
                                 </p>
                                 <p className="login-password">
                                     <label htmlFor="user_pass">Password</label>
-                                    <input type="password" name="pwd" id="user_pass" className="input" defaultValue size={20} />
+                                    <input type="password" name="pwd" ref="password" id="password" className="input" placeholder="Password" size={20} />
                                 </p>
                                 <p className="login-remember">
                                     <label>
-                                        <input name="rememberme" type="checkbox" id="rememberme" defaultValue="forever" /> Remember Me</label>
+                                        <input name="rememberme" type="checkbox" ref="rememberme" id="rememberme" /> Remember Me</label>
                                 </p>
                                 <p className="login-submit">
                                     <input type="submit" name="wp-submit" id="wp-submit" className="button button-primary" defaultValue="Log In" />
-                                    <input type="hidden" name="redirect_to" defaultValue="/demo/monarch/" />
                                 </p>
                             </form>
                         </div>
@@ -71,3 +86,4 @@ export default class ModalLogin extends Component {
         );
     }
 }
+export default connect(state => ({ userInfo: state.userInfo }))(ModalLogin);
